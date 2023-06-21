@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.morty{
+    background-color:yellow ;
+}
+.rick{
+    background-color:rgb(0, 255, 234) ;
+}
+
+h1, button{
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+    padding: 20px;
+    box-shadow: 3px 3px 8px black;
+}
+.morty h1,.morty button{
+    background-color: rgb(138, 79, 31);
+}
+.rick h1, .rick button{
+    background-color: rgb(0, 0, 0);
+}
+
+main
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+.image-container{
+    display: flex;
+    
+}
+
+.image-container img
+{
+    width: 100%;
+}
+
+article{
+    padding: 10px;
+    box-shadow: 3px 3px 8px black;
+    
+}
+.morty article
+{
+    background-color: rgb(138, 79, 31);
+}
+.rick article
+{
+    background-color: rgb(0, 0, 0);
+}
